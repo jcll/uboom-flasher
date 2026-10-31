@@ -1,0 +1,14 @@
+# never commit firmware, flash images or logs: they are EarFun's files or contain a speaker's
+# Bluetooth address and pairing keys
+*.fw
+*.bin
+*.sha256
+backups/
+logs/
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+.DS_Store
